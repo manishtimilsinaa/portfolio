@@ -8,7 +8,7 @@
 
 
 #HomePage {
-    background-image: linear-gradient(to left bottom, #051937, #1c5065, #58898b, #a5c4b3, #d2d8c4);
+    background-image: linear-gradient(to left bottom,#f0f0f0);
     width: 100%;
     background-size: cover;
     height: 100vh;
@@ -110,7 +110,7 @@ nav ul li a:hover::after {
 
 #about {
     padding: 100px 30px;
-    background-image: linear-gradient(to right bottom, #d2d8c4, #a5c4b3, #58898b, #1c5065, #051937);
+    background-image: linear-gradient(to right bottom, #f0f0f0);
     height: 100%;
     background-size: cover;
 }
@@ -231,7 +231,7 @@ nav ul li a:hover::after {
 #services {
     padding-top: 100px;
     padding-left: 30px;
-    background-image: linear-gradient(to left bottom, #051937, #1c5065, #58898b, #a5c4b3, #d2d8c4);
+    background-image: linear-gradient(to left bottom, #f0f0f0);
     height: 100%;
     background-size: cover;
 }
@@ -303,7 +303,7 @@ nav ul li a:hover::after {
 
 #Portfolio {
     padding-top: 100px;
-    background-image: linear-gradient(to right bottom, #d2d8c4, #a5c4b3, #58898b, #1c5065, #051937);
+    background-image: linear-gradient(to right bottom, #f0f0f0);
     height: 100%;
     background-size: cover;
     padding-bottom: 60px;
@@ -484,7 +484,7 @@ nav ul li a:hover::after {
 #contact {
     padding-top: 100px;
     padding-bottom: 40px;
-    background-image: linear-gradient(to left bottom, #051937, #1c5065, #58898b, #a5c4b3, #d2d8c4);
+    background-image: linear-gradient(to left bottom, #f0f0f0);
     height: 100vh;
     background-size: cover;
 }

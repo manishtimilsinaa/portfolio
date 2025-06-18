@@ -20,6 +20,24 @@ let Layer = document.querySelectorAll("#layer-elemnt");
 let Contact = document.getElementById("contact");
 let value = false;
 
+function loadAnydoneChat() {
+    const script = document.createElement("script");
+    script.src = "https://edge-a.anydone.com/chat.js";
+    script.async = true;
+
+    script.onload = function () {
+        const apiKeyId = "5DE9720588E84D6E98994EDFFDEE185C";
+        const apiSecret = "82wRMx_4iWL7SsDm2r3nhz1FR42OugPoTXYkmpHq1hvMLxf";
+        const placeholder = {};
+        const mode = "popup_mode";
+
+        if (window.init_anydone_chat) {
+            window.init_anydone_chat(apiKeyId, apiSecret, placeholder, mode);
+        }
+    };
+
+    document.body.appendChild(script);
+}
 
 
 function pink() {
